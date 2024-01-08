@@ -35,10 +35,22 @@ hr {
 
     .lista-rodape__titulo {
         margin-bottom: 2em;
+        color: var(--cinza-sec);
     }
 
     .lista-rodape__link {
         text-decoration: none;
         color: var(--cinza-footer);
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .rodape {
+        padding: 3em 2em;
+    }
+    
+    .lista-rodape {
+        border-left: 1px solid var(--cinza-sec);
+        padding-left: 1em;
     }
 }
